@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P. Haseena Fathim | Java Full Stack Developer</title>
+  <meta name="description" content="Portfolio of P. Haseena Fathim, a final-year Computer Science Engineering student and aspiring Java Full Stack Developer skilled in Java, Spring Boot, React.js and PostgreSQL." />
+  <meta name="author" content="P. Haseena Fathim" />
+  <meta property="og:title" content="P. Haseena Fathim | Java Full Stack Developer" />
+  <meta property="og:description" content="Building scalable web applications with Java, Spring Boot, React.js and PostgreSQL." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0f1b3d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"P. Haseena Fathim","jobTitle":"Java Full Stack Developer","email":"mailto:haseenafathimmohideen@gmail.com","url":"https://github.com/Haseena2006","sameAs":["https://www.linkedin.com/in/hasee2006","https://github.com/Haseena2006"],"alumniOf":"SCAD College of Engineering and Technology"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Home">HF<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>P. Haseena Fathim</h1>
+          <h2 class="role">Java Full Stack Developer<span class="sr-only">. </span></h2>
+          <p class="typing-line" aria-live="off"><span id="typing"></span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="intro">Passionate Computer Science Engineering student focused on building scalable web applications and solving real-world problems through technology.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="assets/Haseena_Fathim_P_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image reveal">
+          <div class="photo-ring">
+            <img src="Profileimage.png" alt="Portrait of P. Haseena Fathim" width="360" height="360" id="profileImg" />
+            <div class="photo-fallback" id="photoFallback" aria-hidden="true">HF</div>
+          </div>
+          <div class="float-chip chip-1">☕ Java</div>
+          <div class="float-chip chip-2">🍃 Spring Boot</div>
+          <div class="float-chip chip-3">⚛️ React.js</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">About Me</span>
+          <h2>Building reliable software, one feature at a time</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I'm a final-year B.E. Computer Science and Engineering student with a strong interest in Java Full Stack Development. I enjoy working across the stack, from designing REST APIs and databases to building clean, user-friendly interfaces.</p>
+            <p>I'm passionate about backend development, databases and modern web technologies, and I love continuously learning by building real-world applications through internships and hands-on projects.</p>
+            <ul class="about-list">
+              <li>📍 Tirunelveli, Tamil Nadu</li>
+              <li>🎓 B.E. CSE, 2023 – 2027</li>
+              <li>💼 Open to Java Full Stack roles</li>
+            </ul>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card reveal"><strong data-count="8.2" data-decimals="2">0</strong><span>CGPA</span></div>
+            <div class="stat-card reveal"><strong data-count="5">0</strong><span>Internships</span></div>
+            <div class="stat-card reveal"><strong data-count="3">0</strong><span>Projects</span></div>
+            <div class="stat-card reveal"><strong>0</strong><span>Arrears</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Technical Skills</span>
+          <h2>Tools and technologies I work with</h2>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Projects</span>
+          <h2>Things I've built</h2>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Education</span>
+          <h2>Academic background</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="time">2023 – 2027</span>
+            <h3>B.E. Computer Science and Engineering</h3>
+            <p>SCAD College of Engineering and Technology</p>
+            <p class="muted">CGPA: 8.20 / 10 · No history of arrears</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="time">2022 – 2023</span>
+            <h3>Higher Secondary Education (Class XII)</h3>
+            <p>St. Mary's Higher Secondary School</p>
+            <p class="muted">Score: 72%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Internship Experience</span>
+          <h2>Hands-on industry training</h2>
+        </div>
+        <div class="timeline" id="internTimeline"></div>
+        <p class="note reveal">Additional training: Mave Pizon – Java Full Stack Development (10-day program) · CodeAlpha – Cybersecurity Internship</p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Certifications</span>
+          <h2>Verified credentials</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="card cert reveal"><div class="cert-icon">🎖️</div><h3>Web Development Fundamentals</h3><p>Microsoft</p></article>
+          <article class="card cert reveal"><div class="cert-icon">🛡️</div><h3>Cybersecurity Internship Certificate</h3><p>TATA</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Achievements</span>
+          <h2>Recognition &amp; milestones</h2>
+        </div>
+        <div class="ach-grid">
+          <article class="card ach reveal"><div class="ach-icon">🏅</div><h3>Gold Achiever</h3><p>Recognized at SCAD College of Engineering and Technology for academic excellence (2025 – 2026).</p></article>
+          <article class="card ach reveal"><div class="ach-icon">📈</div><h3>Consistent Academic Performance</h3><p>Maintained a CGPA of 8.20 / 10 in B.E. Computer Science and Engineering with no history of arrears.</p></article>
+          <article class="card ach reveal"><div class="ach-icon">🚀</div><h3>Industry Training</h3><p>Completed five internships across full stack development, databases and analytics between 2024 and 2026.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Contact</span>
+          <h2>Let's work together</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>I'm open to internships and entry-level Java Full Stack opportunities. Send me a message and I'll get back to you.</p>
+            <ul>
+              <li><span>✉️</span><a href="mailto:haseenafathimmohideen@gmail.com">haseenafathimmohideen@gmail.com</a></li>
+              <li><span>📞</span><a href="tel:+919677679158">+91 96776 79158</a></li>
+              <li><span>💼</span><a href="https://www.linkedin.com/in/hasee2006" target="_blank" rel="noopener noreferrer">linkedin.com/in/hasee2006</a></li>
+              <li><span>🐙</span><a href="https://github.com/Haseena2006" target="_blank" rel="noopener noreferrer">github.com/Haseena2006</a></li>
+            </ul>
+          </div>
+          <form class="contact-form card reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required minlength="2" />
+              <small class="error" id="nameError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+              <small class="error" id="emailError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required minlength="3" />
+              <small class="error" id="subjectError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+              <small class="error" id="messageError" role="alert"></small>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> P. Haseena Fathim. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
